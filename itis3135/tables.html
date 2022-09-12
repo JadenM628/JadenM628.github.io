@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>| Jaden Marquez | ITIS 3135 | Tables |</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Aleo&display=swap" rel="stylesheet">
+         <link href="styles/default.css" rel="stylesheet">
+          <style>
+            header {text-align: center;}
+            h2 {text-align: center;}
+            footer {text-align: center;}
+            figure {text-align: center;}
+          </style>
+            
+    </head>
+    <body>
+        <header>
+            <h1>| Jaden Marquez | ITIS 3135 | Jolly Machine's |</h1>
+            <nav>
+                <a href="./">Home</a>
+                 | 
+                <a href="https://webpages.charlotte.edu/jmarque5/itis3135/introduction.html">Introduction</a>
+                 | 
+                <a href="https://webpages.charlotte.edu/jmarque5/">UNCC home page</a>
+                 |
+                 <a href="https://webpages.charlotte.edu/jmarque5/itis3135/brand.html">Brand</a>
+                 |
+                 <a href="https://webpages.charlotte.edu/jmarque5/itis3135/tables.html">Tables</a>
+                 |
+                 <a href="https://webpages.charlotte.edu/jmarque5/itis3135/forms.html">Forms</a>
+                 |
+                <a href="https://webpages.charlotte.edu/jmarque5/itis3135/contract.html">Contract</a>
+            </nav>
+            </header>
+            <main>
+                <h2><strong>HTML Tables</strong></h2>
+                <h3 style="text-align: left;">My Tabular Data</h3>
+                <ol>
+                    <li>Adam Cooke acooke@yahoo.com 2</li>
+                    <li>Aaron Sacks aaronsacks@gmail.com 5</li>
+                    <li>Xaiver Swain xswain@uncc.edu 1</li>
+                    <li>Phil Foden philfoden@outlook.com 4</li>
+                    <li>Kyle Walker kylew@gmail.com 10</li>
+                    <li>Nancy Wheeler nacnyw@yahoo.com 8</li>
+                    <li>Han Lue hanlue@gmail.com 18</li>
+                </ol>
+                <br>
+                <h3 style="text-align: center;">Employee Data in Simple Table</h3>
+                <table class="center" style="width: 60%">
+                    <tbody>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Years of Service</th>
+                        </tr>
+                        <tr>
+                            <td>Adam Cooke</td>
+                            <td>acooke@yahoo.com</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>Aaron Sacks</td>
+                            <td>aaronsacks@gmail.com</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Xaiver Swain</td>
+                            <td>xswain@uncc.edu</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>Phil Foden</td>
+                            <td>philfoedn@outlook.com</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>Kyle Walker</td>
+                            <td>kylew@gmail.com</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Nancy Wheeler</td>
+                            <td>nancyw@yahoo.com</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>Han Lue</td>
+                            <td>hanlue@gmail.com</td>
+                            <td>18</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <h3 style="text-align: center;">Employee Data in Complex Table</h3>
+                <figure>
+                <table class="center" style="width: 60%">
+                    <tbody>
+                        <tr>
+                            <th id="Position" headers="Position">Position</th>
+                            <th id="Name" headers="Name">Name</th>
+                            <th id="Email" headers="Email">Email</th>
+                            <th id="Years_of_Service" headers="Years_of_Service">Years of Service</th>
+                            <th id="Salary" headers="Salary">Salary</th>
+                        </tr>
+                        <tr>
+                            <td headers="Position" rowspan="1">CEO</td>
+                            <td headers="Name">Adam Cooke</td>
+                            <td headers="Email">acooke@yahoo.com</td>
+                            <td headers="Years_of_Service">20</td>
+                            <td headers="Salary">$1,000,000</td>
+                        </tr>
+                        <tr>
+                            <td headers="Position" rowspan="2">CFO</td>
+                            <td headers="Name">Aaron Sacks</td>
+                            <td headers="Email">aaronsacks@gmail.com</td>
+                            <td headers="Years_of_Service">5</td>
+                            <td headers="Salary">$500,000</td>
+                        </tr>
+                        <tr>
+                            <td headers="Name">Xaiver Swain</td>
+                            <td headers="Email">xswain@uncc.edu</td>
+                            <td headers="Years_of_Service">1</td>
+                            <td headers="Salary">$420,000</td>
+                        </tr>
+                        <tr>
+                            <td headers="Position" rowspan="2">Machine Specialist</td>
+                            <td headers="Name">Phil Foden</td>
+                            <td headers="Email">philfoedn@outlook.com</td>
+                            <td headers="Years_of_Service">4</td>
+                            <td headers="Salary">$120,000</td>
+                        </tr>
+                        <tr>
+                            <td headers="Name">Kyle Walker</td>
+                            <td headers="Email">kylew@gmail.com</td>
+                            <td headers="Years_of_Service">10</td>
+                            <td headers="Salary">$90,000</td> 
+                        </tr>
+                        <tr>
+                            <td headers="Position" rowspan="2">Machinist</td>
+                            <td headers="Name">Nancy Wheeler</td>
+                            <td headers="Email">nancyw@yahoo.com</td>
+                            <td headers="Years_of_Service">8</td>
+                            <td headers="Salary">$20,000</td>
+                        </tr>
+                        <tr>
+                            <td headers="Name">Han Lue</td>
+                            <td headers="Email">hanlue@gmail.com</td>
+                            <td headers="Years_of_Service">18</td>
+                            <td headers="Salary">$50,000</td>
+                        </tr>
+                        <tr>
+                            <th colspan="3">Total Years of Service</th>
+                            <th headers="Years_of_Service">66</th>
+                            <th headers="Salary">$2,200,000</th>
+                        </tr>
+                    </tbody>
+                </table>
+                <figcaption>Employee Information</figcaption>
+            </figure>
+
+
+
+            </main>
+            <footer>
+                <br>
+                    <nav>
+                          <a href="https://JadenM628.github.io">Github Webpages</a>
+                           |
+                          <a href="https://github.com/JadenM628/JadenM628.github.io">Github Repository</a>
+                           |
+                          <a href="https://www.freecodecamp.org/JadenMarquez">freeCodeCamp Account</a>
+                           |
+                          <a href="https://www.codecademy.com/profiles/JadenMarquez">CodeAcademy Account</a>
+                          </nav>
+                          <br>
+                        <p>Desgined By: Jaden Marquez</p>
+                          
+                       <p>
+                          <a href="https://validator.w3.org/check?uri=referer" style="text-decoration: none">
+                              <img src="images/button_validation_html5.png" width="88" height="31" alt="Validate webpage HTML." />
+                          </a>
+                          <a href="https://validator.w3.org/check?uri=referer" style="text-decoration: none">
+                              <img src="images/button_validation_css.png" width="88" height="31" alt="Validate webpage HTML." />
+                          </a>
+                       </p>           
+           </footer>
+    </body>
+</html>
