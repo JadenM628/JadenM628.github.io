@@ -18,7 +18,7 @@
     </head>
     <body>
         <header>
-        <h1>| Jaden Marquez | ITIS 3135 |</h1>
+        <h1>| Jaden Marquez | ITIS 3135 | Forms |</h1>
         <nav>
             <a href="./">Home</a>
              | 
@@ -44,23 +44,23 @@
                 <br>
                 <input type="text" id="name" name="name" placeholder="Please Enter Name">
                 <br>
-                <label for="phonenumber">
+                <label for="phone">
                     <strong>Phone Number:</strong>
                 </label>
                 <br>
-                <input type="phonenumber" id="phonenumber" placeholder="Please Enter Phone #">
+                <input type="tel" id="phone" placeholder="Phone Number" pattern="[0-9]{3}- [0-9]{2} - [0-9]{4}">
                 <br>
                 <label for="email">
                     <strong>Email:</strong>
                 </label>
                 <br>
-                <input type="text" id="email" email="email" placeholder="Please Enter Email">
+                <input type="email" id="email" name="email" placeholder="your@email.com">
                 <br>
                 <br>
                 <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
                 <label for="newsletter">Check to sign up and subscribe to the Jolly Machine's Newsletter.</label>
                 <br>
-                <p>How do you think my website is built?:</p>
+                <p>How do you think my website is built?</p>
                 <input type="radio" id="good" name="think" value="good">
                 <label for="good">Good</label>
                 <br>
@@ -69,8 +69,7 @@
                 <br>
                 <input type="radio" id="bad" name="think" value="bad">
                 <label for="bad">Bad</label>
-                <br>
-
+                <br><br>
                 <label for="sports">Choose your favorite sport:</label>
                 <select name = "sports" id="sports">
                     <option value="select">Select</option>
@@ -84,3 +83,13 @@
                 <input type="submit" value="Submit">
             </form>
         </main>
+        <footer>
+        <p>
+            <a href="https://validator.w3.org/check?uri=referer" style="text-decoration: none">
+                <img src="images/button_validation_html5.png" width="88" height="31" alt="Validate webpage HTML." />
+            </a>
+            <a href="https://validator.w3.org/check?uri=referer" style="text-decoration: none">
+                <img src="images/button_validation_css.png" width="88" height="31" alt="Validate webpage HTML." />
+            </a>
+         </p>
+        </footer>
