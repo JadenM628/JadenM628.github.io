@@ -4,6 +4,7 @@ body
     background-color: gray;
     font-family: 'Aleo', serif;
 }
+
 table tr:nth-child(even)
 {
     background-color: powderblue;
@@ -27,8 +28,14 @@ form
 {   
     text-align: center;
     background-color: powderblue;
+    color: black;
     margin-left: 400px;
     margin-right: 400px;
     border-color: mediumblue;
-    border-style: dashed;
+    border-style: solid;
+}
+a
+{
+    text-decoration: none;
+    color: #3dccc7;
 }
