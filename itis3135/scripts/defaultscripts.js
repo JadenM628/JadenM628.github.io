@@ -1,4 +1,6 @@
-function scriptTest()
+var date = new Date();
+
+window.onload = function() 
 {
-    alert("My script is running!");
+    document.getElementById("date").innerHTML = "Today is " + date.toLocaleTimeString() + " on " + date.toDateString();
 }
