@@ -4,7 +4,10 @@ body
     background-color: gray;
     font-family: 'Aleo', serif;
 }
-
+title,header,footer
+{
+    text-align: center;
+}
 table tr:nth-child(even)
 {
     background-color: powderblue;
