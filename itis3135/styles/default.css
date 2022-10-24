@@ -4,7 +4,7 @@ body
     background-color: gray;
     font-family: 'Aleo', serif;
 }
-title,header,footer
+title,header,footer,h2
 {
     text-align: center;
 }
