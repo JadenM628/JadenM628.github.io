@@ -42,3 +42,6 @@ a
     text-decoration: none;
     color: #3dccc7;
 }
+fieldset {
+    text-align: center;
+}
