@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- Tutorial Followed: https://www.youtube.com/watch?v=j59qQ7YWLxw&ab_channel=WebDevSimplified -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaden Marquez | ITIS 3135 | Calculator Try </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aleo&display=swap" rel="stylesheet">
+        <link href="styles/calc.css" rel="stylesheet">
+        <script src="scripts/calculator_try.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>
+           | Jaden Marquez | ITIS 3135 | Calculator Try |
+        </h1>
+        <div data-include="components/header.html"></div>
+        
+    </header>
+    <h2>Calculator Try</h2>
+    <div class="calculator-grid">
+      <div class="output">
+        <div data-previous-operand class="previous-operand"></div>
+        <div data-current-operand class="current-operand"></div>
+      </div>
+      <button data-all-clear class="span-two">AC</button>
+      <button data-delete>DEL</button>
+      <button data-operation>÷</button>
+      <button data-number>1</button>
+      <button data-number>2</button>
+      <button data-number>3</button>
+      <button data-operation>*</button>
+      <button data-number>4</button>
+      <button data-number>5</button>
+      <button data-number>6</button>
+      <button data-operation>+</button>
+      <button data-number>7</button>
+      <button data-number>8</button>
+      <button data-number>9</button>
+      <button data-operation>-</button>
+      <button data-number>.</button>
+      <button data-number>0</button>
+      <button data-equals class="equals">=</button>
+    </div>
+
+    <footer>
+        <div data-include="components/footer.html"></div>
+        <script src="scripts/include.js"></script>
+    </footer>
+  </body>
+  </html>
