@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <link href="styles/default.css" rel="stylesheet">
+    <script src="scripts/slideshow.js"></script>
 </head>
 <body>
     <header>
@@ -19,10 +20,25 @@
     </header>
     
     <main>
-        <h2>Slideshow</h2>
+        <div class="container">
+            <h2>Slideshow</h2>
+            <div class="slider-outer">
+                <img src="images/arrow-left.png" class="prev" alt="Prev">
+                <div class="slider-inner">
+                    <img src="images/gtr.jpg" class="active" alt="gtr">
+                    <img src="images/lambo.jpg" alt="lambo">
+                    <img src="images/mustang.jpg" alt="mustang">
+                    <img src="images/nsx.jpg" alt="nsx">
+                    <img src="images/rx7.jpg" alt="rx7">
+                    <img src="images/supra.jpg" alt="supra">
+                </div>
+                <img src="images/arrow-right.png" class="next" alt="Next">
+            </div>
+        </div>
     </main>
-
-    <div data-include="components/footer.html"></footer>
-    <script src="scripts/include.js"></script>
+    <footer>
+        <div data-include="components/footer.html"></div>
+        <script src="scripts/include.js"></script>
+    </footer>
 </body>
 </html>
