@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aleo&display=swap" rel="stylesheet">
-    <script src=""></script>
+    <script src="hobby.js"></script>
     <style>
         body
         {
@@ -14,7 +14,7 @@
             color:beige;
             background-color: grey;
         }
-        h2,h1,div,header,figure,figcaption,p
+        h2,h1,div,header,figure,figcaption,p,h4
         {
             text-align: center;
         }
@@ -28,65 +28,96 @@
             text-decoration: none;
             color: #3dccc7;
         }
+        .nav {
+            overflow: hidden;
+            border: 1px solid;
+            border-color: #3dccc7;
+            border-width:3px;
+            background-color: #3dccc7;
+            text-align: center;
+            margin-left: 700px;
+            margin-right: 700px;
+            border-radius: 25px;
+            }
+        .buttons 
+        {
+            background-color: inherit;
+            float: center;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 15px;
+            text-align: center;
+        }
+        .buttons:hover
+        {
+            background-color: #3d80cc;
+            border-radius: 25px;
+        }
+        .tips {
+            border: solid 1px black;
+            position: relative;
+            margin-left: 1050px;
+            margin-right: 1050px;
+            
+        }
     </style>
 </head>
-<body>
+<body onload="openpg(event, '1')">
  <header>
     <h1>Jaden Marquez | ITIS 3135 | Hobby</h1>
-    <a href="./">Home</a>
+    <nav>
+        <a href="./">Home</a>
          | 
-        <a href="/jmarque5/itis3135/introduction.html">Introduction</a>
+        <a href="./introduction.html">Introduction</a>
          | 
         <a href="https://webpages.charlotte.edu/jmarque5/">UNCC home page</a>
          | 
-         <a href="/jmarque5/itis3135/brand.html">Brand</a>
+         <a href="./brand.html">Brand</a>
          |
-         <a href="/jmarque5/itis3135/tables.html">Tables</a>
+         <a href="./tables.html">Tables</a>
          |
-         <a href="/jmarque5/itis3135/forms.html">Forms</a>
+         <a href="./forms.html">Forms</a>
          |
-         <a href="/jmarque5/itis3135/DEFNOTCRAP/CRAP WEBSITE🎅.htm">Crap</a>
+         <a href="./stuff/CRAP WEBSITE🎅.htm">Crap</a>
          |
-         <a href="/jmarque5/itis3135/website_evaluations.html">Website Evaluations</a>
+         <a href="./website_evaluations.html">Website Evaluations</a>
          |
-        <a href="/jmarque5/itis3135/contract.html">Contract</a>
+         <a href="./accessibility/index.html">Accessibility</a>
          |
-        <a href="/jmarque5/itis3135/firstscripts.html">First Scripts</a>
+         <a href="./contract.html">Contract</a>
          |
-        <a href="/jmarque5/itis3135/polygons.html">Polygons</a>
+         <a href="./firstscripts.html">First Scripts</a>
+         |
+         <a href="./calculator_try.html">Calculator Try</a>
+         |
+         <a href="./calculator.html">Calculator Part 2</a>
+         |
+         <a href="./arrays.html">Arrays</a>
+         |
+         <a href="./polygons.html">Polygons</a>
+         |
+         <a href="./slideshow.html">Slideshow</a>
+         |
+         <a href="./Activity10.html">Image Swap</a>
+         |
+         <a href="./Activity11.html">Accordion</a>
+         |
+        <a href="./hobby/">Hobby</a>
+    </nav>
  </header> 
  <main>
     <h2>Hobby</h2>
-    <!--
-        <nav>
-        <ul>
-            <li class="is-active">
-                <a data-switcher data-tab="1">Home</a>
-            </li>
-            <li>
-                <a data-switcher data-tab="2">About Me</a>
-            </li>
-            <li>
-                <a data-switcher data-tab="3">Where to Buy</a>
-            </li>
-            <li>
-                <a data-switcher data-tab="4">Underdtanding What to Look For</a>
-            </li>
-            <li>
-                <a data-switcher data-tab="5">Why</a>
-            </li>
-        </ul>
-    </nav>
--->
-    <div>
-        <button>Home</button>
-        <button>About Me</button>
-        <button>*When</button>
-        <button>Where to Buy</button>
-        <button>Understanding What to Look For</button>
-        <button>*why</button>
+    <div class="nav">
+        <button class="buttons" onclick="openpg(event, '1')">Home</button>
+        <button class="buttons" onclick="openpg(event, '2')">About Me</button>
+        <button class="buttons" onclick="openpg(event, '3')">Origin</button>
+        <button class="buttons" onclick="openpg(event, '4')">Where to Buy</button>
+        <button class="buttons" onclick="openpg(event, '5')">Understanding What to Look For</button>
     </div>
-    <section>
+    <section id="1" class="content">
         <h2>Home</h2>
         <p>Welcome to my hobby page! I will share some information of one of my hobbies, sports cards collecting.</p>
 
@@ -95,16 +126,33 @@
             <figcaption>Sports Cards!</figcaption>
         </figure>
     </section>
-    <section>
+    <section id="2" class="content">
         <h2>About Me</h2>
         <p>I have been interested in sports for as long as i can remember. I started collecting cards a couple of years ago. 
            There are cards available in almost every sport there is.</p>
+           <figure>
+            <img src="images/lotsofcards.jpg" width="800" height="500">
+            <figcaption>Graded Sports Cards!</figcaption>
+        </figure>
     </section>
-    <section>
-        <h2>*When</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam ut dolorum quisquam, commodi adipisci sequi cupiditate alias asperiores. Rem doloremque tempore dignissimos veritatis, ex pariatur sapiente repellendus quidem omnis ipsa.</p>
+    <section id="3" class="content">
+        <h2>Origin</h2>
+        <h4>Origin of Trading Cards</h4>
+        <p>The original “trade cards” were advertising cards that were packaged with cigarettes for the purpose of stiffening the packaging. In the 1860s, shortly after baseball’s inception as a professional sport, baseball cards were printed, usually being sold in packets of candy or tobacco products.</p>
+        <figure>
+            <img src="images/oldpack.jpg" width="100" height="200">
+            <figcaption>5 cent baseball card pack!</figcaption>
+        </figure>
+        <br>
+        <p>In the 1870s and early 1900s, the popularization of “color lithography” or multi-color printing, led to the increased popularity of the “trade card.” Companies of all kinds would insert these cards into product packaging as a prize. The designs on the cards were often not product-related, but were humorous or beautiful, depending on the perceived tastes of the consumer.</p>
+        <figure>
+            <img src="images/oldcard.jpg" width="500" height="300">
+            <figcaption>Graded Sports Cards!</figcaption>
+        </figure>
+        <br>
+        <p>Valued for their vibrant, full-color imagery, the public began to collect these cards, storing their collections in scrapbooks and albums. People would often trade with each other to obtain a complete set, hence the origin of their name. These cards faded in popularity as color printing became more common, but the concept of collecting trading cards was born.</p>
     </section>
-    <section>
+    <section id="4" class="content">
         <h2>Where to Buy</h2>
         <p>There are different types of packs and boxes of cards you can buy. They all have different price points.
            If you are looking for a single card you can purchase them on the aftermarket.
@@ -121,15 +169,24 @@
         </figure>
         <p>You can purchase cards from several different retails such as Walmart, Target, etc. Or you can purchase direct from the manufacturer via their website.</p>
     </section>
-    <section>
+    <section id="5" class="content">
         <h2>Understanding What to Look For</h2>
         <p>There are all different types of desgins and concepts of sports cards out there. 
             It could be overwhelming to see all the different types of cards. Most of the time it will tell you what different types of cards you could possibly get in the box.
             If you do some research about the product you bought you can figure out if you got a rare card or not. </p>
-    </section>
-    <section>
-        <h2>*why</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam inventore explicabo, delectus ad quod excepturi cupiditate perspiciatis maiores! Temporibus error aperiam ipsam non doloribus ratione ab facilis dolores magni sequi!</p>
+            <figure>
+                <img src="images/lbjlogoman.jpg" width="800" height="500">
+                <figcaption>Lebron James One of One</figcaption>
+            </figure>
+            <p><strong> Here are some thing to look out for!</strong></p>
+            <ul class="tips">
+                <li>The Conditon of the Cards!</li>
+                <li>The Age of the Cards!</li>
+                <li>Look for Autographed Cards!</li>
+                <li>Look for Rookie Cards!</li>
+                <li>Look out for low print cards!</li>
+                <li>Look for the big stars</li>
+            </ul>
     </section>
  </main>
 </body>
