@@ -1,0 +1,37 @@
+<h3>ETF Analyzer</h3>
+
+<h5>Project Goal</h5>
+<p>The aim of our project is to provide investors advice on which Exchange Traded Fund (ETF) is best to invest in (best returns) based on their risk appetite, type of ETF they prefer and time period they want to keep their money invested in.
+
+In this project, we applied financial analysis concepts to be able to give sound advice to investors. In coming up with financial advice we used financial programming concepts and skills to calculate ETFs’ performance using historical data and forecasting future performance.</p>
+
+<h5>How the Project Works</h5>
+<ul>
+	<li>We created an investor interface (CLI) where users can ask for which ETF is best to invest in based on:</li>
+	<li>Risk appetite (no/little risk, medium risk or high risk)</li>
+	<li>Type of ETF (Mutual Fund, Fixed Income Fund, Real Estate, Specialty/Sector, Dividend-Focused)</li>
+	<li>Time / Investment Period (2, 5 or +10 years)</li>
+	<li>Investor interface will recommend ETF to invest in based on responses</li>
+	<li>Financial analysis and programming codes were used to come up with financial advice</li>
+</ul>
+
+<figure>
+ 	<a href="images/pic1.png"></a>
+        <img src="images/pic1.png" alt="pic1" width="600" height="400">
+</figure>
+	<figcaption>1. This is where we displayed the closing prices of all of the funds.</figcaption>
+<figure>
+ 	<a href="images/pic2.png"></a>
+        <img src="images/pic2.png" alt="pic2" width="600" height="400">
+</figure>
+	<figcaption>2. This is where we displayed the closing prices of only the ETFs.</figcaption>
+<figure>
+ 	<a href="images/pic3.png"></a>
+        <img src="images/pic3.png" alt="pic3" width="600" height="400">
+</figure>
+	<figcaption>3. This is where we displayed the daily returns for each fund in a line plot.</figcaption>
+<figure>
+ 	<a href="images/pic4.png"></a>
+        <img src="images/pic4.png" alt="pic3" width="600" height="400">
+</figure>
+	<figcaption>4. This is an example of 1 of the 15 monte carlo simulations that we did, we did 3 for each fund showing short-term ,med-term, and long-term forecasting.</figcaption>

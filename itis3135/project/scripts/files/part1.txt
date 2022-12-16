@@ -1,0 +1,26 @@
+<h3>Tokenized News Dashboard</h3>
+<figure>
+ 	<a href="images/part1.png"></a>
+        <img src="images/part1.png" alt="part1" width="600" height="400">
+</figure>
+	<figcaption>1. Select account for membership</figcaption>
+<figure>
+ 	<a href="images/part2.png"></a>
+        <img src="images/part2.png" alt="part2" width="600" height="400">
+</figure>
+	<figcaption>2. Click 'Purchase a Certificate of Membership Token' to process transaction of 1.00 ETH</figcaption>
+<figure>
+ 	<a href="images/part3.png"></a>
+        <img src="images/part3.png" alt="part3" width="600" height="400">
+</figure>
+	<figcaption>2.1 Verify block transaction in Ganache</figcaption>
+<figure>
+ 	<a href="images/part4.png"></a>
+        <img src="images/part4.png" alt="part4" width="600" height="400">
+</figure>
+	<figcaption>3. Choose artwork token and click 'Display' </figcaption>
+<figure>
+ 	<a href="images/part6.png"></a>
+        <img src="images/part6.png" alt="part6" width="600" height="400">
+</figure>
+	<figcaption>4. Gain access to news articles</figcaption>
