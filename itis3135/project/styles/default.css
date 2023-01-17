@@ -1,0 +1,133 @@
+body 
+{
+    font-family: 'Aleo', serif;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(27, 27, 70);
+    color: white;
+}
+header, footer, h2
+{
+    text-align: center;
+}
+.center
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+a
+{
+    text-decoration: none;
+    color:darkorange;
+}
+.pictures
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    width: 640px;
+    margin: 40px auto;
+    overflow: auto;
+}
+
+.slider-inner {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: 3px;
+    border: #666 solid 1px;
+}
+.slider-inner img {
+    display: none;
+    width: 600px;
+    height: 400px;
+    object-fit:fill;
+}
+.slider-inner img.active {
+    display: inline-block;
+}
+.prev,.next {
+    float: left;
+    margin-top: 130px;
+    cursor: pointer;
+}
+.prev {
+    position: relative;
+    margin-right: -45px;
+    z-index: 100;
+}
+.next {
+    position: relative;
+    margin-left: -45px;
+    z-index: 100;
+}
+.pulse 
+{
+    animation: pulse 3s infinite;
+}
+@keyframes pulse {
+    0% {
+      font-variation-settings: 'wght' 100;
+    }
+    50% {
+      font-variation-settings: 'wght' 700;
+    }
+    100% {
+      font-variation-settings: 'wght' 100;
+    }
+}
+form
+{   
+    text-align: center;
+    background-color:bisque;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: green;
+    border-style: solid;
+    padding: 10px;
+    max-width: 500px;
+}
+.buttons
+{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: green;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .buttons span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttons span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .buttons:hover span {
+    padding-right: 25px;
+  }
+  
+  .buttons:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

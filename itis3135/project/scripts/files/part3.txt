@@ -1,0 +1,37 @@
+<h3>Algo-Trading Model</h3>
+
+<h5>Project Goal</h5>
+
+<p>We want to create an Algo-Trading model/platform that individuals can have access to (via subscription, etc.) at an affordable price, where they can choose a specific type of asset (stocks, funds, bonds, digital assets, derivatives, swaps, options, futures, forwards, etc), and match with or explore trading strategies they like, and make profit with their excess cash.</p>
+
+<h5>About the Project</h5>
+
+<p>Our project is to create a profitable trading algorithm - model that anyone can use or subscribe to.
+
+We selected 3 type of asset types (securities) i.e. index fund, futures contract and a digital asset (cryptocurrency) for analysis.
+
+We also selected different trading strategies for the 3 different asset types. We used the momentum trading strategy for an exchange traded fund (SPY), pullback strategy for futures contracts, and bollinger bands for a cryptocurrency.
+
+We calculated standard deviations, sharpe ratios and cumulative returns for each type of asset.
+
+We used SK-Learn and PyTorch libraries to create prediction models for future prices.
+
+The ultimate project goal is to create a platform for users to be able to use to choose a specific type of asset, match with a trading strategy, predict prices and make a profit using our trading algo - model/platform.</p>
+
+<h5>Index Fund S&P 500</h5>
+
+<figure>
+ 	<a href="images/picture1.png"></a>
+        <img src="images/picture1.png" alt="picture1" width="600" height="400">
+</figure>
+	<figcaption>1. Dataframe.</figcaption>
+<figure>
+ 	<a href="images/picture2.png"></a>
+        <img src="images/picture2.png" alt="picture2" width="600" height="400">
+</figure>
+	<figcaption>2. Graph of trading signals.</figcaption>
+<figure>
+ 	<a href="images/picture3.png"></a>
+        <img src="images/picture3.png" alt="picture3" width="400" height="600">
+</figure>
+	<figcaption>3. Details of loss/gain for the buy/sell (based on trading signals).</figcaption>
