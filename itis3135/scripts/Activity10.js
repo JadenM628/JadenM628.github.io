@@ -13,7 +13,7 @@ $(document).ready(function() {
                 var url = $(this).attr("href");
                 var caption = $(this).attr("title");
 
-                $("#image").fadeOut(3000, function()
+                $("#image").fadeOut(1000, function()
                 {
                         $("#image").attr("src", url).fadeIn(3000);
                 });
